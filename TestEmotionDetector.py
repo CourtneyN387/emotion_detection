@@ -79,22 +79,22 @@ cv2.destroyAllWindows()
 # plt.title('Emotions Over Time')
 # plt.show()
 
-import matplotlib.pyplot as plt
-from collections import Counter
+# import matplotlib.pyplot as plt
+# from collections import Counter
 
-# Assuming emotion_data is a list of tuples (timestamp, emotion_label)
-emotions = [emotion for _, emotion in emotion_data]
+# # Assuming emotion_data is a list of tuples (timestamp, emotion_label)
+# emotions = [emotion for _, emotion in emotion_data]
 
-# Count the frequency of each emotion
-emotion_counts = Counter(emotions)
+# # Count the frequency of each emotion
+# emotion_counts = Counter(emotions)
 
-# Creating the bar graph
-plt.bar(emotion_counts.keys(), emotion_counts.values())
+# # Creating the bar graph
+# plt.bar(emotion_counts.keys(), emotion_counts.values())
 
-# Adding titles and labels
-plt.title('Emotion Distribution')
-plt.xlabel('Emotions')
-plt.ylabel('Frequency')
+# # Adding titles and labels
+# plt.title('Emotion Distribution')
+# plt.xlabel('Emotions')
+# plt.ylabel('Frequency')
 
-# Display the plot
-plt.show()
+# # Display the plot
+# plt.show()
